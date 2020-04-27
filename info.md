@@ -5,3 +5,4 @@ Pa55w.rd
 
 Activare windows :
 slmgr -rearm
+
