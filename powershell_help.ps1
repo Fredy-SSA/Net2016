@@ -60,3 +60,25 @@ Remove-NetIPAddress -InterfaceAlias "London_Network" -IPAddress 172.16.0.88
 Get-NetIPInterface
 Set-NetIPInterface -InterfaceAlias London_Network -Dhcp Enabled -WhatIf
 Get-NetAdapter
+
+#delete DNS cache 
+ipconfig /flushdns
+#Show DNS cache
+ipconfig /displaydns
+
+#mixed ping and tracert cmd
+pathping www.google.com
+pathping /? 
+
+netstat -a
+netstat /?
+
+#port query
+# https://www.microsoft.com/en-us/download/details.aspx?id=24009
+
+#zenmap port query
+# https://nmap.org/zenmap/
+
+#Microsoft Message Analyzer https://docs.microsoft.com/en-us/message-analyzer/microsoft-message-analyzer-operating-guide
+#https://www.wireshark.org/ 
+
