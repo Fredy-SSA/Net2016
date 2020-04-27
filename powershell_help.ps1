@@ -46,4 +46,8 @@ Get-EventLog -LogName System | Export-Csv C:\GitNet\export1.csv -NoTypeInformati
 ise C:\GitNet\export1.txt
 notepad.exe C:\GitNet\export1.txt
 
+# Help About !!!!!!
+get-help about* -ShowWindow 
+get-help about*run* -ShowWindow
+get-help about_Foreach -ShowWindow
 
