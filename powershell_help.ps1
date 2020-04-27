@@ -51,3 +51,12 @@ get-help about* -ShowWindow
 get-help about*run* -ShowWindow
 get-help about_Foreach -ShowWindow
 
+#network
+
+ipconfig /all
+
+Get-NetIPAddress -InterfaceAlias  "London_Network"
+Remove-NetIPAddress -InterfaceAlias "London_Network" -IPAddress 172.16.0.88
+Get-NetIPInterface
+Set-NetIPInterface -InterfaceAlias London_Network -Dhcp Enabled -WhatIf
+Get-NetAdapter
