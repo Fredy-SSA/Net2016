@@ -1,10 +1,9 @@
 ﻿Get-Command 
 
-Get-Command  | Measure-Object
-Get-Command  | Measure
-
+Get-Command  | measure
 
 Get-Command *ip*ad*
+
 Get-Command *IPAddress*
 
 Get-Command -Module NetTCPIP
@@ -37,5 +36,14 @@ Test-Connection  "." -Count 1 | fl
 Test-Connection  "." -Count 1 | ft
 
 # show last 10 entry
-Get-EventLog 
+Get-EventLog -LogName System -Newest 10
+
+#export txt & csv
+Get-EventLog -LogName System -Newest 10 | Out-File C:\GitNet\export1.txt
+Get-EventLog -LogName System -Newest 10  >> C:\GitNet\export1.txt
+
+Get-EventLog -LogName System | Export-Csv C:\GitNet\export1.csv -NoTypeInformation
+ise C:\GitNet\export1.txt
+notepad.exe C:\GitNet\export1.txt
+
 
