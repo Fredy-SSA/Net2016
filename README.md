@@ -1,12 +1,16 @@
-# Net2016
-Prepare Setup 
+# Network with Windows 2016
 
+1. [Info](info.md)
+2. [Powershell](powershell_help.ps1)
+3. [DHCP](m02-DHCP.ps1)
+4. [ipv6](m03-IPv6.md)
+5. [DNS](m04-dns.md)
 
 
 ### Git lab - GitHub Alternative 
 https://about.gitlab.com/
 
-# Github : [https://github.com]
+Github : https://github.com
 
 # Trainer  
 https://github.com/Fredy-SSA/Net2016/
