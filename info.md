@@ -13,3 +13,8 @@ slmgr -rearm
 # raspberrypi 4
 - https://www.raspberrypi.org/
 -  https://pi-hole.net/
+
+#Fix trust channel
+#run as Admin
+# Cont local Admin
+Test-ComputerSecureChannel -Repair
