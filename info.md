@@ -19,6 +19,6 @@ slmgr -rearm
 -  run as Admin
 -  Cont local Admin
 
-```azurepowershell
+```powershell
 Test-ComputerSecureChannel -Repair
 ```
