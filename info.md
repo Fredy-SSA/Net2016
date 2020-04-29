@@ -14,7 +14,11 @@ slmgr -rearm
 - https://www.raspberrypi.org/
 -  https://pi-hole.net/
 
-#Fix trust channel
-#run as Admin
-# Cont local Admin
+## Fix trust channel
+
+-  run as Admin
+-  Cont local Admin
+
+```azurepowershell
 Test-ComputerSecureChannel -Repair
+```
