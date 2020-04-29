@@ -22,3 +22,11 @@ slmgr -rearm
 ```powershell
 Test-ComputerSecureChannel -Repair
 ```
+
+
+# IPAM
+
+```powershell
+Invoke-IpamGpoProvisioning –Domain Adatum.com –GpoPrefixName IPAM –IpamServerFqdn LON-SVR2.adatum.com –DelegatedGpoUser Administrator
+```
+
