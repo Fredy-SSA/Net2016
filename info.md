@@ -14,7 +14,7 @@ slmgr -rearm
 - https://www.raspberrypi.org/
 -  https://pi-hole.net/
 
-## Fix trust channel
+# Fix trust channel
 
 -  run as Admin
 -  Cont local Admin
