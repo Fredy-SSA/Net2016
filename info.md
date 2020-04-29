@@ -30,3 +30,7 @@ Test-ComputerSecureChannel -Repair
 Invoke-IpamGpoProvisioning –Domain Adatum.com –GpoPrefixName IPAM –IpamServerFqdn LON-SVR2.adatum.com –DelegatedGpoUser Administrator
 ```
 
+# War Driving
+https://wigle.net/
+
+
