@@ -82,3 +82,8 @@ netstat /?
 #Microsoft Message Analyzer https://docs.microsoft.com/en-us/message-analyzer/microsoft-message-analyzer-operating-guide
 #https://www.wireshark.org/ 
 
+# Query Powershell
+
+get-service | Out-GridView -OutputMode Multiple
+Get-EventLog -LogName Application | Out-GridView -OutputMode Multiple
+
