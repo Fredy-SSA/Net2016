@@ -5,6 +5,7 @@
 3. [DHCP](m02-DHCP.ps1)
 4. [ipv6](m03-IPv6.md)
 5. [DNS](m04-dns.md)
+6. [DFS](m09-DFS.md)
 
 
 ### Git lab - GitHub Alternative 

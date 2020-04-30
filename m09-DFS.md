@@ -31,4 +31,14 @@ $Permission | Set-Acl -Path C:\Alin
 cacls /?
 ```
 
+# Example :
+
+```azurepowershell
+New-DfsReplicatedFolder -GroupName "Adatum_Marketing" -FolderName "Promotions" 
+Get-DfsrMember -GroupName "Adatum_Marketing" -ComputerName "LON-SVR1"
+```
+
+
+
+
 
